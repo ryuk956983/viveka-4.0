@@ -11,7 +11,7 @@ const Home = () => {
             <img src={VivekaImg} className="max-md:w-full max-md:h-full"  alt="" />
           </div>
           <div className="flex flex-col items-start  gap-4 font-display">
-            <p className="text-4xl max-md:text-3xl font-bold ">Innovate, Elevate and Celebrate</p>
+            <p className="text-4xl max-md:text-3xl font-bold ">Iovate, Elevate and Celebrate</p>
             <p className="text-4xl max-md:text-3xl font-bold">February 6th-8th, 2025</p>
             <button className="border-2 border-purple-300 mt-4 hover:bg-purple-300 hover:text-viveka-back-light transition duration-200 cursor-pointer hover:ease-linear p-4 rounded-full"> Explore Our Events</button>
           </div>
