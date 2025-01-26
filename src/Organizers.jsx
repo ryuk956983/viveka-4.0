@@ -7,78 +7,78 @@ const Organizers = () => {
       name: "Er. Pankaj Agarwal",
       work: "Chancellor",
       image:
-        "public/Organizers/chiefs/er-pankaj-agarwal-12012403111859.jpg",
+        "images/Organizers/chiefs/er-pankaj-agarwal-12012403111859.jpg",
     },
     {
       name: "Er. Pooja Agarwal",
       work: "Pro Chancellor",
       image:
-        "public/Organizers/chiefs/er.-pooja-agarwal-pro-chancellor--12012403114783.jpg",
+        "images/Organizers/chiefs/er.-pooja-agarwal-pro-chancellor--12012403114783.jpg",
     },
     {
       name: "Arrushi Agarwal",
       work: "University Advisor",
-      image: "public/Organizers/chiefs/aarushinsfui832894239.webp",
+      image: "images/Organizers/chiefs/aarushinsfui832894239.webp",
     },
   ];
 
   const patron = [{
     name:"Prof.(Dr.) Vikas Mishra",
     work:"Vice Chancellor",
-    image:"public/Organizers/patron/whatsapp-image-2024-07-31-at-14.03.56-3107240456253.jpeg"
+    image:"images/Organizers/patron/whatsapp-image-2024-07-31-at-14.03.56-3107240456253.jpeg"
   }]
 
   const facultyConveners = [{
 name:"Er. Sunny Kumar",
 work:"Assistant Professor - DCSE",
-image:"public/Organizers/FACULTY/11zon-cropped-5-11zon-23022411165423.jpeg",
+image:"images/Organizers/FACULTY/11zon-cropped-5-11zon-23022411165423.jpeg",
 linkedIn:"https://www.linkedin.com/in/sunny-kumar-a7910b234/"
   },
   {
     name:"Er. Neeta Bhusal Sharma",
     work:"Assistant Professor - DCSE",
-    image:"public/Organizers/FACULTY/11zon-cropped-2-11zon-23022410512735.jpeg",
+    image:"images/Organizers/FACULTY/11zon-cropped-2-11zon-23022410512735.jpeg",
     linkedIn:"https://www.linkedin.com/in/neeta-bhusal-13708037/"
 
       },
       {
         name:"Er. Abhishek Kumar Saxena",
         work:"Assistant Professor - DEEE",
-        image:"public/Organizers/FACULTY/22.84e79aae4013d11ad5c2.jpg",
+        image:"images/Organizers/FACULTY/22.84e79aae4013d11ad5c2.jpg",
         linkedIn:"https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/"
           }]
 
  const veteran = [{
   name:"Deepika",
 work:"M.Tech (2nd Year)",
-image:"public/Organizers/veteran/Deepika.92971efc14ccbc6803bd.jpg",
+image:"images/Organizers/veteran/Deepika.92971efc14ccbc6803bd.jpg",
 linkedIn:"https://www.linkedin.com/in/deepika-singh-070957230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
  },{
   name:"Aadya Sharma",
 work:"BBA.LLB (5th Year)",
-image:"public/Organizers/veteran/Aadya.a082cfa0e5385c1e5f8b.jpg",
+image:"images/Organizers/veteran/Aadya.a082cfa0e5385c1e5f8b.jpg",
 linkedIn:"https://www.linkedin.com/in/aadya-sharma-130a27218/"
  },{
   name:"Ayushman Singh",
 work:"B.Tech ECE (4th Year)",
-image:"public/Organizers/veteran/Ayushman.8e0be6c4d2361fa915b7.jpg",
+image:"images/Organizers/veteran/Ayushman.8e0be6c4d2361fa915b7.jpg",
 linkedIn:"https://www.linkedin.com/in/ayushman-singh-413240195"
  },{
   name:"Atam Prakash Bajpai",
 work:"B.Tech ECE (4th Year)",
-image:"public/Organizers/veteran/Atam.645281d022456e76bfa4.jpg",
+image:"images/Organizers/veteran/Atam.645281d022456e76bfa4.jpg",
 linkedIn:"https://www.linkedin.com/in/atam-prakash-bajpai-67441a224/"
  }]
 
  const students = [{
   name:"Pranshu Agrahari",
 work:"B.Tech CSE (3rd Year)",
-image:"public/Organizers/veteran/Pranshu.86f485a89c01a5ad604c.jpg",
+image:"images/Organizers/veteran/Pranshu.86f485a89c01a5ad604c.jpg",
 linkedIn:"https://www.linkedin.com/in/pranshu-agrahari-956a37288/"
  },{
   name:"Kesar Rai",
 work:"B.Tech CSE (3rd Year)",
-image:"public/Organizers/veteran/Kesar.4138626489429f27219e.jpg",
+image:"images/Organizers/veteran/Kesar.4138626489429f27219e.jpg",
 linkedIn:"https://www.linkedin.com/in/kesarrai/"
  }]
 
@@ -86,22 +86,22 @@ linkedIn:"https://www.linkedin.com/in/kesarrai/"
  const CoConveners =[{
   name:"Aadi Chandra",
 work:"B.Tech CSE (3rd Year)",
-image:"public/Organizers/veteran/Aadi.f4c24566fbfb88a44fb1.jpg",
+image:"images/Organizers/veteran/Aadi.f4c24566fbfb88a44fb1.jpg",
 linkedIn:"https://www.linkedin.com/in/aadi-chandra-7a4185278/"
  },{
   name:"Nitin Jaiswal",
 work:"B.Tech CSE (3rd Year)",
-image:"public/Organizers/veteran/Nitin.e264367041395411d43f.jpg",
+image:"images/Organizers/veteran/Nitin.e264367041395411d43f.jpg",
 linkedIn:"https://www.linkedin.com/in/nitin-jaiswal-6b41a024b/"
  },{
   name:"Nandini Verma",
 work:"B.Tech CSE (3rd Year)",
-image:"public/Organizers/veteran/Nandini.07c80e6c58e0132e99c4.jpg",
+image:"images/Organizers/veteran/Nandini.07c80e6c58e0132e99c4.jpg",
 linkedIn:"https://www.linkedin.com/in/nandini-verma-4n5v4/"
  },{
   name:"Pragya Sharma",
 work:"B.Tech CSE (3rd Year)",
-image:"public/Organizers/veteran/pragya.c4d658466dc4e00b233e.jpeg",
+image:"images/Organizers/veteran/pragya.c4d658466dc4e00b233e.jpeg",
 linkedIn:"https://www.linkedin.com/in/pragya-sharma-136280280"
  }]
 
