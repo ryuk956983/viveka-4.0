@@ -6,7 +6,7 @@ const EventInside = () => {
   const events = [
     {
       title: "Laser Light Show",
-      img: "/src/images/events/laser light show.97f610deaba5a75050fb.png",
+      img: "./images/events/laser light show.97f610deaba5a75050fb.png",
       discription:
         "Step into a world of magic and rhythm with the Laser Light Extravaganza, the highlight of TechFest! This immersive event combines dazzling laser displays with pulsating music and energetic dance performances, creating an unforgettable experience. To add a spark of romance, special couple events bring an enchanting charm to the festivities.",
       category: "University Only",
@@ -36,7 +36,7 @@ const EventInside = () => {
     },
     {
       title: "AI Workshop (Generative AI)/ Power Bi Workshop",
-      img: "/src/images/events/AI.88953e637ed03bc56f45.jpg",
+      img: "./images/events/AI.88953e637ed03bc56f45.jpg",
       discription:
         "AI Workshop (Generative AI) : Learn the fundamentals of Generative AI, including neural networks and applications in content creation and design. Power BI Workshop : Discover how to use Power BI for data visualization, analysis, and creating interactive dashboards.",
       category: "University Only",
@@ -59,7 +59,7 @@ const EventInside = () => {
     },
     {
       title: "Workshop on configuring the Network Layers",
-      img: "/src/images/events/Network.b66efe67f84f84647e35.jpg",
+      img: "./images/events/Network.b66efe67f84f84647e35.jpg",
       discription:
         "This workshop provides an in-depth understanding of the structure and functionality of network layers. Participants will learn about network architecture, protocols, IP addressing, subnetting, and security configurations. The session is designed to enhance knowledge and understanding of how network layers operate to facilitate seamless communication.",
       category: "University Only",
@@ -78,7 +78,7 @@ const EventInside = () => {
     },
     {
       title: "CodeX",
-      img: "/src/images/events/codex.1b960ae8bb05f752c1df.png",
+      img: "./images/events/codex.1b960ae8bb05f752c1df.png",
       discription:
         "CodeX is a premier technical event of Viveka where participants put their problemsolving skills in their preferred programming language (C/C++/Java/Python) into text to develop the best possible solution for a real-life problem.",
       category: "University Only",
@@ -121,7 +121,7 @@ const EventInside = () => {
     },
     {
       title: "Find the Language",
-      img: "/src/images/events/find the language.ca1148282c6c58746a08.png",
+      img: "./images/events/find the language.ca1148282c6c58746a08.png",
       discription:
         "Showcase your programming knowledge in this fast-paced competition! Participants will test their skills in identifying programming language syntax under strict time limits. Challenge yourself and compete against the best to win exciting rewards.",
       category: "University Only",
@@ -160,7 +160,7 @@ const EventInside = () => {
     },
     {
       title: "Hack-a-thon",
-      img: "/src/images/events/hack-a-thon.6bee251c3e0f6bae3629.png",
+      img: "./images/events/hack-a-thon.6bee251c3e0f6bae3629.png",
       discription:
         "Welcome to the Hackathon event as part of Viveka 4.0 – the Techfest of Shri Ramswaroop Memorial University! This competition is designed to bring out the creativity, innovation, and problem solving skills of participants across both school and college levels.",
       category: "School / University",
@@ -200,7 +200,7 @@ const EventInside = () => {
     },
     {
       title: "Bug Hunting",
-      img: "/src/images/events/Bug.eb80efef7ebedb43c833.jpg",
+      img: "./images/events/Bug.eb80efef7ebedb43c833.jpg",
       discription:
         "Join 'Hunt the Bugs, Master the Code', an exciting bug-hunting challenge where you’ll showcase your cybersecurity skills! Explore real-world scenarios, identify vulnerabilities in systems and applications, and tackle hands-on tasks using tools like Burp Suite, OWASP ZAP, and Wireshark. Whether you’re a budding ethical hacker or a pro, this is your chance to test and enhance your technical expertise!",
       category: "University Only",
@@ -227,7 +227,7 @@ register:"https://forms.gle/EtWLS7nfUbD6y6pw5",
     },
     {
       title: "Digi Art",
-      img: "/src/images/events/digi art.9a96000d8606d39a45bd.png",
+      img: "./images/events/digi art.9a96000d8606d39a45bd.png",
       discription:
         "Participants will create original designs based on the disclosed theme during the session. Logo Design involves crafting unique logos using tools like Canva, Photoshop, or Figma within 1 hour, followed by 15 minutes for submission in PNG, JPEG, or SVG format with a brief description.nUI/UX Design focuses on creating user-friendly interfaces using Figma or Adobe XD within 2 hours with 15 minutes for submission as a prototype or PDF. The emphasis is on simplicity, creativity, and relevance, with all work completed during the event.",
       category: "University Only",
@@ -268,7 +268,7 @@ register:"https://forms.gle/EtWLS7nfUbD6y6pw5",
     },
     {
       title: "Robo दौड़",
-      img: "/src/images/events/robo DAUD.53317eea61b088eab172.png",
+      img: "./images/events/robo DAUD.53317eea61b088eab172.png",
       discription:
         "Navigate your robot through a challenging obstacle course and reach the finish line in record time! Showcase your engineering skills, strategy, and precision to conquer the hurdles and claim the top spot",
       category: "School / University ",
@@ -317,7 +317,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Robo फुटबॉल",
-      img: "/src/images/events/robo FOOTBALL.af88c5c5223574e5f82b.png",
+      img: "./images/events/robo FOOTBALL.af88c5c5223574e5f82b.png",
       discription:"Put your bot-building and soccer skills to the test in Robo Soccer! Compete in a fast-paced knockout tournament where strategy, control, and teamwork will determine the champion. Outplay your opponents and lead your bot to victory!",
       category: "School / University",
       register:"https://docs.google.com/forms/d/e/1FAIpQLSeoPSEApFsAEUxiP9eX0iqv0ChJh58Ke_aROJlAtckuGgsxPQ/viewform",
@@ -367,7 +367,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Path Finder:Robot",
-      img: "/src/images/events/path fnder-robot.667a7c2d533d230be45d.png",
+      img: "./images/events/path fnder-robot.667a7c2d533d230be45d.png",
       discription:"Dive into the world of robotics with Mesmerize, an exhilarating competition where innovation meets precision! In this event. Teams will design and build an autonomous bot capable of navigating a maze by following white lines, analyzing paths, and reaching the endpoint in record time.",
       category: "University Only",
      register:"https://docs.google.com/forms/d/e/1FAIpQLSeL3ITddNL2kCzqSOBbYkuTCcNHJV0DZpWlUxAcnDliETN7Og/viewform",
@@ -408,7 +408,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Robo War",
-      img: "/src/images/events/robo war.ac95b658314d04f4b52c.png",
+      img: "./images/events/robo war.ac95b658314d04f4b52c.png",
       discription:"Prepare for an electrifying faceoff in Mini War, a knockout competition that pits mini bots against each other in a highintensity war arena! Bring your custom-built bot to battle it out or glory, strategy, and mechanical supremacy. Let your innovation and engineering skills shine in this thrilling event.",
       category: "University Only",
      register:"https://docs.google.com/forms/d/e/1FAIpQLSeLpJmm7mUpiuRxFZ_xYxloI6xX8oXrY_5lVdW-iSTu_NPdgA/viewform",
@@ -455,7 +455,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Drone Race",
-      img: "/src/images/events/drone race.3c130786094318217886.png",
+      img: "./images/events/drone race.3c130786094318217886.png",
       discription:"Take to the skies in the exhilarating Drone Race! This highspeed,action-packed event challenges participants to race their drones through a complex obstacle course, testing their piloting skills, precision, and speed. Whether you're an experienced drone racer or a beginner, this event offers the ultimate test of your aerial abilities!",
       category: "University Only",
      register:"https://docs.google.com/forms/d/e/1FAIpQLScb7WGWFHQHYZb3N7Rko-Pvwt_m_0ChJvwzQNZrGraKRHOzlQ/viewform",
@@ -498,7 +498,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Boat Race",
-      img: "/src/images/events/boat race.794da8b0292a0df68597.png",
+      img: "./images/events/boat race.794da8b0292a0df68597.png",
       discription:"Join us for an exhilarating RC Boat Race Challenge, where enthusiasts and competitors will showcase their skills in navigating radio-controlled boats through a watercourse filled with obstacles. Participants will race their RC boats in a specially designed water body, maneuvering through twists, turns, and barriers in the shortest possible time to claim victory.",
       category: "University Only",
      register:"https://docs.google.com/forms/d/e/1FAIpQLSfwxl8_YrrmendHIFHib1_n-cciBQSivonOKAzjuRQiB3V5Fw/viewform",
@@ -538,7 +538,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Structomania",
-      img: "/src/images/events/structromania.7396853aa6fd421c99a2.png",
+      img: "./images/events/structromania.7396853aa6fd421c99a2.png",
       discription:"Step into Structromania, a unique competition where teams design and build wooden structures using limited materials like sticks, threads, and glue. Test your innovation, teamwork, and problem-solving as you create a structure that holds the maximum weight before breaking.",
       category: "University Only",
       group  :"120",
@@ -583,7 +583,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr
     },
     {
       title: "Recall-O-Tune",
-      img: "/src/images/events/recall-o-tune.ab949ae3af0b07261934.png",
+      img: "./images/events/recall-o-tune.ab949ae3af0b07261934.png",
       discription:"Challenge your memory and reasoning skills in this exciting event filled with funand intellectual puzzles!. Participants will identify logos (University, company, or government organization) and solve puzzles digitally in the shortest possibletime.",
       category: "School / University ",
       individual :"50",
@@ -624,7 +624,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSfRpaXI_dFCKPMX4l1UVrY5Mff0Q_
     },
     {
       title: "Rubik's Cube",
-      img: "/src/images/events/rubics cube.e7bd524bfc7ea6cb92d1.png",
+      img: "./images/events/rubics cube.e7bd524bfc7ea6cb92d1.png",
       discription:"Cubing Clash is a thrilling event for puzzle enthusiasts, problem solvers, and speed cubers of all skill levels. Highlights include a speed cubing competition, creative challenges, and learning sessions with expert cubers.",
       category: "School / University ",
       individual :"50",
@@ -666,7 +666,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSfRpaXI_dFCKPMX4l1UVrY5Mff0Q_
     },
     {
       title: "Buddhi क्षमता",
-      img: "/src/images/events/Buddhi SHAMTA.720ebf5c74bbad455593.png",
+      img: "./images/events/Buddhi SHAMTA.720ebf5c74bbad455593.png",
       discription:"Buddhi क्षमता is a fun event that tests students’ memory skills through four exciting levels. First , participants match card pairs by remembering their positions. Second,they pair bottles with their correct colors. The third level involves memorizing and recreating object patterns. Finally, participants identify objects out of options by their names and colors.",
       category: "School / University ",
       individual :"50",
@@ -707,7 +707,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSdedAQ02ik7j8hYl4uv0Vo-v_hVVp
     },
     {
       title: "Reasoning Rumble",
-      img: "/src/images/events/reasoning rumble.185c85b7a4c652e717ea.png",
+      img: "./images/events/reasoning rumble.185c85b7a4c652e717ea.png",
       discription:"Get ready for Reasoning Rumble, a thrilling challenge of reasoning, aptitude, and logic! Test your skills with puzzles like dice face challenges, distance calculations, ratios, and pattern recognition, all designed to push your mental agility to the limits. Perfect for puzzle enthusiasts and analytical minds, this event is your chance to shine, have fun, and compete for the title of Ultimate Logic Champion!",
       category: "School / University ",
       individual :"50",
@@ -747,7 +747,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSdCAs1yLabxE50hed9v7QGFYuwuDA
     },
     {
       title: "BGMI",
-      img: "/src/images/events/bgmi.33be073ceb62e6b8d371.png",
+      img: "./images/events/bgmi.33be073ceb62e6b8d371.png",
       discription:"Enter the battlegrounds with your 4-man squad in an intense BGMI tournament. Compete in a 64-player lobby, starting with a 2-map group stage featuring an Erangel-Livik combo. Top teams from the Classic Maps will face off in ARENA TDM (4v4, 1v1, 2v2, or 3v3) based on qualifications",
       category: "University Only",
       group :"200",
@@ -789,7 +789,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSdCAs1yLabxE50hed9v7QGFYuwuDA
     },
     {
       title: "Free Fire",
-      img: "/src/images/events/freefire.72c3d59e4ce95b5a41ed.png",
+      img: "./images/events/freefire.72c3d59e4ce95b5a41ed.png",
       discription:"Compete in a high-octane Free Fire tournament featuring 4-man squads in a 48-player lobby. Battle across three iconic maps—Bermuda, Purgatory, and Kalahari—in the group stage, with top runners-up advancing to the Clash Squad final on classic maps.",
       category: "School / University",
       group :"150",
