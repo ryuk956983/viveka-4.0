@@ -1,6 +1,7 @@
 import React from "react";
 import VivekaImg from "../images/vivekaLogo.c756f3a9a824d7e68e29.png";
 import backSvg from "../images/svg/Hero.899cad8d98aba1feee10.svg"
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
           <div className="flex flex-col items-start  gap-4 font-display">
             <p className="text-4xl max-md:text-3xl font-bold ">Innovate, Elevate and Celebrate</p>
             <p className="text-4xl max-md:text-3xl font-bold">February 6th-8th, 2025</p>
-            <button className="border-2 border-purple-300 mt-4 hover:bg-purple-300 hover:text-viveka-back-light transition duration-200 cursor-pointer hover:ease-linear p-4 rounded-full"> Explore Our Events</button>
+            <Link to="/events" className="border-2 border-purple-300 mt-4 hover:bg-purple-300 hover:text-viveka-back-light transition duration-200 cursor-pointer hover:ease-linear p-4 rounded-full"> Explore Our Events</Link>
           </div>
         </div>
         <div className="flex-1 scale-150 max-md:absolute max-md:opacity-40">

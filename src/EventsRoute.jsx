@@ -1,7 +1,21 @@
 import React from 'react'
 import EventsCard2 from './Components/Events/EventsCard2'
+import { useEffect } from 'react'
 
 const EventsRoute = () => {
+
+    const handleClick = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // Optional: for smooth scrolling
+        });
+        console.log("hello")
+      }
+    
+      useEffect(() => {
+         handleClick();
+         
+      }, [])
 
     const events = [{
         title:"Laser Light Show",

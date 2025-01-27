@@ -1,7 +1,22 @@
 import React from "react";
 import OrganizerCard from "./Components/OrganizersCard/OrganizerCard";
+import { useEffect } from "react";
 
 const Organizers = () => {
+
+  const handleClick = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Optional: for smooth scrolling
+      });
+      console.log("hello")
+    }
+  
+    useEffect(() => {
+       handleClick();
+       
+    }, [])
+
   const cheiefPatrons = [
     {
       name: "Er. Pankaj Agarwal",
