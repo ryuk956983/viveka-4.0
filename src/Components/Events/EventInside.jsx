@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 
@@ -831,6 +831,18 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSdCAs1yLabxE50hed9v7QGFYuwuDA
     },
   ];
 
+  const handleClick = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Optional: for smooth scrolling
+      });
+      console.log("hello")
+    }
+  
+    useEffect(() => {
+       handleClick();
+       
+    }, [])
 
   const [index, setindex] = useState(useParams().eventId);
 
