@@ -848,7 +848,7 @@ register:"https://docs.google.com/forms/d/e/1FAIpQLSdCAs1yLabxE50hed9v7QGFYuwuDA
 
 
 return (
-    <main className="mt-30 flex flex-col h-full max-md:h-fit gap-4 items-center p-4">
+    <main className="mt-30 flex flex-col h-screen max-md:h-fit gap-4 items-center p-4">
       <div className=" w-full">
         <h1 className="text-7xl w-fit border-r-4 pr-2 border-viveka-theme ">
           {events[index].title}
