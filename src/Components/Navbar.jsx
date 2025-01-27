@@ -19,7 +19,7 @@ const Navbar = ({setloader}) => {
   }
 
   const mobileLoaderTrue = ()=>{
-    sethamburger(!hamburger);
+    sethamburger(false);
     loaderTrue();
   }
 
