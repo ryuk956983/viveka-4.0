@@ -6,6 +6,7 @@ import Gallery from "./Components/Gallery";
 import Map from "./Components/Map";
 
 const HomeRoute = () => {
+  
   return (
     <main className=" w-fit">
         <Home/>

@@ -25,35 +25,35 @@ const Event = () => {
   }
     let eventfeb6 = [{
         time:"12:30 PM",
-        icon:"./images/icons/programming.png",
+        icon:"./assets/icons/programming.png",
         head:"CodeX",
         info:"For University Students",
         location:"B2-Computer Labs"
     },
     {
         time:"1:00 PM",
-        icon:"./images/icons/brainstorm.png",
+        icon:"./assets/icons/brainstorm.png",
         head:"Buddhi क्षमता",
         info:"For School Students",
         location:"B1-First Floor"
     },
     {
         time:"1:00 PM",
-        icon:"./images/icons/hacker.png",
+        icon:"./assets/icons/hacker.png",
         head:"Hack-a-thon",
         info:"For School Students",
         location:"B2-305"
     },
     {
         time:"1:20 PM",
-        icon:"./images/icons/rubik.png",
+        icon:"./assets/icons/rubik.png",
         head:"Rubik's Cube",
         info:"For University Students",
         location:"Kabaddi Ground, Near B1 Block"
     },
     {
         time:"2:00 PM",
-        icon:"./images/icons/laser.png",
+        icon:"./assets/icons/laser.png",
         head:"Laser Light Show",
         info:"For University Students",
         location:"Mini Auditorium"
@@ -61,49 +61,49 @@ const Event = () => {
     },
     {
         time:"2:00 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Robo दौड़",
         info:"For School Students",
         location:"BBC"
     },
     {
         time:"2:00 PM",
-        icon:"./images/icons/soccer-ball-variant.png",
+        icon:"./assets/icons/soccer-ball-variant.png",
         head:"Robo फुटबॉल",
         info:"For School Students",
         location:"BBC"
     },
     {
         time:"2:05 PM",
-        icon:"./images/icons/brainstorm.png",
+        icon:"./assets/icons/brainstorm.png",
         head:"Buddhi क्षमता",
         info:"For University Students",
         location:"Volleyball Court"
     },
     {
         time:"2:45 PM",
-        icon:"./images/icons/music.png",
+        icon:"./assets/icons/music.png",
         head:"Recall-O-Tune",
         info:"For School Students",
         location:"B1-207, B2-007"
     },
     {
         time:"2:50 PM",
-        icon:"./images/icons/light-bulb.png",
+        icon:"./assets/icons/light-bulb.png",
         head:"Reasoning Rumble",
         info:"For University Students",
         location:"Volleyball Court"
     },
     {
         time:"3:35 PM",
-        icon:"./images/icons/light-bulb.png",
+        icon:"./assets/icons/light-bulb.png",
         head:"Reasoning Rumble",
         info:"For School Students",
         location:"Volleyball Court"
     },
     {
         time:"TBA",
-        icon:"./images/icons/gamepad.png",
+        icon:"./assets/icons/gamepad.png",
         head:"Free Fire",
         info:"For School and University Students",
         location:"B2-305(Online Final Round)"
@@ -114,56 +114,56 @@ const Event = () => {
 let eventfeb7 =[
     {
         time:"12:30 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Robo दौड़",
         info:"For University Students",
         location:"BBC Ground"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Robo फुटबॉल",
         info:"For University Students",
         location:"BBC Ground"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Robo War",
         info:"For University Students",
         location:"B2-305"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Path Finder: Robot",
         info:"For University Students",
         location:"B1-310"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Drone Race",
         info:"For University Students",
         location:"Cricket Ground"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/robot.png",
+        icon:"./assets/icons/robot.png",
         head:"Boat Race",
         info:"For University Students",
         location:"Open Arena"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/gamepad.png",
+        icon:"./assets/icons/gamepad.png",
         head:"BGMI",
         info:"For University Students",
         location:"B2-305 (Final Round Only)"
     },
     {
         time:"12:30 PM",
-        icon:"./images/icons/hacker.png",
+        icon:"./assets/icons/hacker.png",
         head:"Workshop on Configuring the Network Layers",
         info:"For University Students",
         location:"Mini Auditorium"
@@ -173,28 +173,28 @@ let eventfeb7 =[
 
 let eventfeb8 = [{
     time:"12:30 PM",
-    icon:"./images/icons/hacker.png",
+    icon:"./assets/icons/hacker.png",
     head:"Find The Language",
     info:"For University Students",
     location:"B2 - All Labs"
 },
 {
     time:"12:30 PM",
-    icon:"./images/icons/hacker.png",
+    icon:"./assets/icons/hacker.png",
     head:"Hack-a-Thon",
     info:"For University Students",
     location:"B2-305 , B1-007"
 },
 {
     time:"1:00 PM",
-    icon:"./images/icons/hacker.png",
+    icon:"./assets/icons/hacker.png",
     head:"Structromania",
     info:"For University Students",
     location:" B5 Ground Floor"
 },
 {
     time:"1:30 PM",
-    icon:"./images/icons/music.png",
+    icon:"./assets/icons/music.png",
     head:"Recall-O-Tune",
     info:"For University Students",
     location:"B1-207 , B2-007"
@@ -202,7 +202,7 @@ let eventfeb8 = [{
 },
 {
     time:"2:15 PM",
-    icon:"./images/icons/laser.png",
+    icon:"./assets/icons/laser.png",
     head:"Digi Art",
     info:"For University Students",
     location:" B2-006 , 004"
@@ -210,14 +210,14 @@ let eventfeb8 = [{
 },
 {
     time:"3:00 PM",
-    icon:"./images/icons/programming.png",
+    icon:"./assets/icons/programming.png",
     head:"Generative AI / Power BI Workshop",
     info:"For University Students",
     location:"Mini Auditorium"
 },
 {
     time:"4:00 PM",
-    icon:"./images/icons/programming.png",
+    icon:"./assets/icons/programming.png",
     head:"Bug Hunting",
     info:"For University Students",
     location:"B2-008"

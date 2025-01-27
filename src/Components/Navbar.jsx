@@ -6,9 +6,22 @@ import { Link } from "react-router-dom";
 
 
 
-const Navbar = () => {
+const Navbar = ({setloader}) => {
 
   const [hamburger, sethamburger] = useState(false);
+
+  setTimeout(() => {
+    setloader(true);
+  }, 3000);
+
+  const loaderTrue = () =>{
+    setloader(false);
+  }
+
+  const mobileLoaderTrue = ()=>{
+    sethamburger(!hamburger);
+    loaderTrue();
+  }
 
   return (
     <div className="text-white bg-[#111c2c]  px-8 max-md:px-3  shadow-lg shadow-gray-900 rounded-xl">
@@ -19,17 +32,17 @@ const Navbar = () => {
         </div>
         <div className="max-md:hidden">
           <ul className="flex gap-8 text-xl font-medium tracking-wide">
-            <li className="hover:text-red-300 cursor-pointer px-1  ease-in-out ">
-            <Link to="/">Home</Link>
+            <li className="hover:text-red-300 cursor-pointer px-1  ease-in-out " onClick={loaderTrue}>
+            <Link to="/" >Home</Link>
             </li>
-            <li className="hover:text-red-300 cursor-pointer px-1 ease-in-out ">
-            <Link to="/about">About</Link>
+            <li className="hover:text-red-300 cursor-pointer px-1 ease-in-out " onClick={loaderTrue}>
+            <Link to="/about" >About</Link>
             </li>
-            <li className="hover:text-red-300 cursor-pointer px-1  ease-in-out">
-            <Link to="/organizers">Organizers</Link>
+            <li className="hover:text-red-300 cursor-pointer px-1  ease-in-out" onClick={loaderTrue}>
+            <Link to="/organizers" >Organizers</Link>
             </li>
-            <li className="hover:text-white cursor-pointer px-1 ease-in-out text-red-500">
-            <Link to="/events">Events</Link>
+            <li className="hover:text-white cursor-pointer px-1 ease-in-out text-red-500" onClick={loaderTrue}>
+            <Link to="/events" >Events</Link>
             </li>
             <li className="hover:text-red-300 cursor-pointer px-1  ease-in-out">
             <a href="https://drive.google.com/file/d/1-9ddtb9tIOHKgax2Q8UuGMU3Jdcf4ILd/view" target="blank">Brochure</a>
@@ -46,19 +59,19 @@ const Navbar = () => {
       <div className={`overflow-hidden transition-all h-0 ease-in-out duration-200 ${hamburger && "h-[300px]"}`}>
         <ul>
         <ul className="flex flex-col items-center py-4 gap-8 text-xl font-medium tracking-wider">
-            <li className=" cursor-pointer px-1  ease-in-out  text-center " onClick={()=>{sethamburger(false)}}>
-             <Link to="/">Home</Link>
+            <li className=" cursor-pointer px-1  ease-in-out  text-center " onclick={()=>{mobileLoaderTrue()} }>
+             <Link to="/" >Home</Link>
             </li>
             
-            <li className=" cursor-pointer px-1 ease-in-out  text-center" onClick={()=>{sethamburger(false)}}>
-              <Link to="/about">About</Link>
+            <li className=" cursor-pointer px-1 ease-in-out  text-center" onclick={()=>{mobileLoaderTrue()}}>
+              <Link to="/about" >About</Link>
             </li>
             
-            <li className=" cursor-pointer px-1  ease-in-out text-center" onClick={()=>{sethamburger(false)}}>
-              <Link to="/organizers">Organizers</Link>
+            <li className=" cursor-pointer px-1  ease-in-out text-center" onclick={()=>{mobileLoaderTrue()}}>
+              <Link to="/organizers" >Organizers</Link>
             </li>
             
-            <li className=" cursor-pointer px-1 ease-in-out text-red-500 text-center" onClick={()=>{sethamburger(false)}}>
+            <li className=" cursor-pointer px-1 ease-in-out text-red-500 text-center" onclick={()=>{mobileLoaderTrue()}}>
               <Link to="/events">Events</Link>
             </li>
               

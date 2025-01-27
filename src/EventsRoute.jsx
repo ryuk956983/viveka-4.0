@@ -5,75 +5,75 @@ const EventsRoute = () => {
 
     const events = [{
         title:"Laser Light Show",
-        img:"./images/events/laser light show.97f610deaba5a75050fb.png"
+        img:"./assets/events/laser light show.97f610deaba5a75050fb.png"
     },
     {
         title:"AI Workshop (Generative AI)/ Power Bi Workshop",
-        img:"./images/events/AI.88953e637ed03bc56f45.jpg"
+        img:"./assets/events/AI.88953e637ed03bc56f45.jpg"
     },
     {
         title:"Workshop on configuring the Network Layers",
-        img:"./images/events/Network.b66efe67f84f84647e35.jpg"
+        img:"./assets/events/Network.b66efe67f84f84647e35.jpg"
     },
     {
         title:"CodeX",
-        img:"./images/events/codex.1b960ae8bb05f752c1df.png"
+        img:"./assets/events/codex.1b960ae8bb05f752c1df.png"
     },
     {
         title:"Find the Language",
-        img:"./images/events/find the language.ca1148282c6c58746a08.png"
+        img:"./assets/events/find the language.ca1148282c6c58746a08.png"
     },
     {
         title:"Hack-a-thon",
-        img:"./images/events/hack-a-thon.6bee251c3e0f6bae3629.png"
+        img:"./assets/events/hack-a-thon.6bee251c3e0f6bae3629.png"
     },
     {
         title:"Bug Hunting",
-        img:"./images/events/Bug.eb80efef7ebedb43c833.jpg"
+        img:"./assets/events/Bug.eb80efef7ebedb43c833.jpg"
     },
     {
         title:"Digi Art",
-        img:"./images/events/digi art.9a96000d8606d39a45bd.png"
+        img:"./assets/events/digi art.9a96000d8606d39a45bd.png"
     },{
         title:"Robo दौड़",
-        img:"./images/events/robo DAUD.53317eea61b088eab172.png"
+        img:"./assets/events/robo DAUD.53317eea61b088eab172.png"
     },
 {
     title:"Robo फुटबॉल",
-    img:"./images/events/robo FOOTBALL.af88c5c5223574e5f82b.png"
+    img:"./assets/events/robo FOOTBALL.af88c5c5223574e5f82b.png"
 },{
     title:"Path Finder:Robot",
-    img:"./images/events/path fnder-robot.667a7c2d533d230be45d.png"
+    img:"./assets/events/path fnder-robot.667a7c2d533d230be45d.png"
 },{
     title:"Robo War",
-    img:"./images/events/robo war.ac95b658314d04f4b52c.png"
+    img:"./assets/events/robo war.ac95b658314d04f4b52c.png"
 },{
     title:"Drone Race",
-    img:"./images/events/drone race.3c130786094318217886.png"
+    img:"./assets/events/drone race.3c130786094318217886.png"
 },{
     title:"Boat Race",
-    img:"./images/events/boat race.794da8b0292a0df68597.png"
+    img:"./assets/events/boat race.794da8b0292a0df68597.png"
 },{
     title:"Structomania",
-    img:"./images/events/structromania.7396853aa6fd421c99a2.png"
+    img:"./assets/events/structromania.7396853aa6fd421c99a2.png"
 },{
     title:"Recall-O-Tune",
-    img:"./images/events/recall-o-tune.ab949ae3af0b07261934.png"
+    img:"./assets/events/recall-o-tune.ab949ae3af0b07261934.png"
 },{
     title:"Rubik's Cube",
-    img:"./images/events/rubics cube.e7bd524bfc7ea6cb92d1.png"
+    img:"./assets/events/rubics cube.e7bd524bfc7ea6cb92d1.png"
 },{
     title:"Buddhi क्षमता",
-    img:"./images/events/Buddhi SHAMTA.720ebf5c74bbad455593.png"
+    img:"./assets/events/Buddhi SHAMTA.720ebf5c74bbad455593.png"
 },{
     title:"Reasoning Rumble",
-    img:"./images/events/reasoning rumble.185c85b7a4c652e717ea.png"
+    img:"./assets/events/reasoning rumble.185c85b7a4c652e717ea.png"
 },{
     title:"BGMI",
-    img:"./images/events/bgmi.33be073ceb62e6b8d371.png"
+    img:"./assets/events/bgmi.33be073ceb62e6b8d371.png"
 },{
     title:"Free Fire",
-    img:"./images/events/freefire.72c3d59e4ce95b5a41ed.png"
+    img:"./assets/events/freefire.72c3d59e4ce95b5a41ed.png"
 }]
 
   return (
