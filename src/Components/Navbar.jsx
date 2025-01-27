@@ -59,19 +59,19 @@ const Navbar = ({setloader}) => {
       <div className={`overflow-hidden transition-all h-0 ease-in-out duration-200 ${hamburger && "h-[300px]"}`}>
         <ul>
         <ul className="flex flex-col items-center py-4 gap-8 text-xl font-medium tracking-wider">
-            <li className=" cursor-pointer px-1  ease-in-out  text-center " onclick={mobileLoaderTrue }>
+            <li className=" cursor-pointer px-1  ease-in-out  text-center " onClick={mobileLoaderTrue}>
              <Link to="/" >Home</Link>
             </li>
             
-            <li className=" cursor-pointer px-1 ease-in-out  text-center" onclick={mobileLoaderTrue}>
+            <li className=" cursor-pointer px-1 ease-in-out  text-center" onClick={mobileLoaderTrue}>
               <Link to="/about" >About</Link>
             </li>
             
-            <li className=" cursor-pointer px-1  ease-in-out text-center" onclick={mobileLoaderTrue}>
+            <li className=" cursor-pointer px-1  ease-in-out text-center" onClick={mobileLoaderTrue}>
               <Link to="/organizers" >Organizers</Link>
             </li>
             
-            <li className=" cursor-pointer px-1 ease-in-out text-red-500 text-center" onclick={mobileLoaderTrue}>
+            <li className=" cursor-pointer px-1 ease-in-out text-red-500 text-center" onClick={mobileLoaderTrue}>
               <Link to="/events">Events</Link>
             </li>
               
