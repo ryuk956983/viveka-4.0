@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../src/Components/Navbar";
 import HomeRoute from "./HomeRoute";
 import Footer from "./Components/Footer";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 import AboutRoute from "./AboutRoute";
 import Organizers from "./Organizers";
 import EventsRoute from "./EventsRoute";
@@ -11,7 +11,7 @@ import EventInside from "./Components/Events/EventInside";
 const App = () => {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
     <div className="h-screen w-screen overflow-x-hidden bg-viveka-back font-oswald ">
       <header className="fixed w-screen p-4 max-md:p-2 z-99">
         <Navbar />
@@ -30,7 +30,7 @@ const App = () => {
         <Footer />
       </footer>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
