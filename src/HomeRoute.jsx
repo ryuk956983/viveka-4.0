@@ -5,7 +5,7 @@ import Event from "./Components/Event";
 import Gallery from "./Components/Gallery";
 import Map from "./Components/Map";
 
-const HomeRoute = () => {
+const HomeRoute = ({setloader}) => {
 
   const handleClick = () => {
     window.scrollTo({
@@ -23,7 +23,7 @@ const HomeRoute = () => {
 
   return (
     <main className=" w-fit">
-      <Home />
+      <Home setloader={setloader} />
       <div className="p-4 max-md:px-2 h-full w-fit " >
         <About />
       </div>

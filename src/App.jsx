@@ -22,11 +22,11 @@ const App = () => {
       </div>
 
       <header className="fixed w-screen p-4 max-md:p-2 z-99">
-        <Navbar setloader={setloader} loader={loader} />
+        <Navbar setloader={setloader} />
       </header>
 
       <Routes>
-        <Route path="/" element={<HomeRoute />} />
+        <Route path="/" element={<HomeRoute setloader={setloader} />} />
         <Route path="/about" element={<AboutRoute />} />
         <Route path="/organizers" element={<Organizers />} />
         <Route path="/events" element={<EventsRoute />} />
